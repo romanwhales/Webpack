@@ -1,4 +1,4 @@
-webpackJsonp([0],{
+webpackJsonp([1,2],{
 
 /***/ 116:
 /***/ function(module, exports, __webpack_require__) {
@@ -3256,6 +3256,8 @@ __webpack_require__(212);
 __webpack_require__(213);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+console.log('Hi!');
 
 var App = function App() {
   var store = (0, _redux.createStore)(_reducers2.default, {}, (0, _redux.applyMiddleware)(_reduxThunk2.default));
